@@ -1,0 +1,22 @@
+{
+	"name": "SFWiki CustomCode",
+	"version": "0.1",
+	"author": [
+		"[https://uesp.net/wiki/User:Daveh Daveh]"
+	],
+	"description": "Handles most/all of the custom changes for the Starfield Wiki.",
+	"license-name": "MIT",
+	"type": "other",
+	"AutoloadClasses": {
+		"SFWikiCustomCode" : "SFWikiCustomCode.php"
+	},
+	"ExtensionMessagesFiles": {
+	},
+	"Hooks": {
+		"OutputPageBeforeHTML" : "SFWikiCustomCode::onOutputPageBeforeHTML",
+		"ParserFirstCallInit" : "SFWikiCustomCode::onParserInit",
+		"BeforePageDisplay" : "SFWikiCustomCode::onBeforePageDisplay",
+		"UserMailerTransformMessage" : "SFWikiCustomCode::onUserMailerTransformMessage"
+	},
+	"manifest_version": 1
+}

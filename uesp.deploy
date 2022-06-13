@@ -1,0 +1,19 @@
+name = sfwiki.customcode
+description = MediaWiki extension for all the custom changes to the Starfield wiki
+repository = https://github.com/uesp/sfwiki-customcode
+backup = true
+verbosity = 0
+
+	# Staging is important as the APC cache randomly breaks if you try to update the files in place.
+staged = true
+
+ignore = *.deploy
+ignore = .hg*
+ignore = .git*
+
+dest = content1.uesp.net:/home/sfwiki/www/w/extensions/SFWikiCustomCode/
+dest = content2.uesp.net:/home/sfwiki/www/w/extensions/SFWikiCustomCode/
+dest = content3.uesp.net:/home/sfwiki/www/w/extensions/SFWikiCustomCode/
+
+destname = [backup]backup1.uesp.net:/home/sfwiki/www/w/extensions/SFWikiCustomCode/
+destname = [dev]content3.uesp.net:/home/sfwiki/dev/www/w/extensions/SFWikiCustomCode/
