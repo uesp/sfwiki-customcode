@@ -24,7 +24,12 @@ class SFWikiCustomCode
 		if ($hasAddedDiv) return true;
 		if (!self::$isMobile) return true;
 		
+		$js = "var contentDiv = document.querySelector('#content'); 
+				var adDiv = document.querySelector('#sfwiki_M_1');
+				contentDiv.before(adDiv);";
+		
 		$text = "<div id='sfwiki_M_1'></div>" . $text;
+		$out->addInlineScript($js);
 		
 		$hasAddedDiv = true;
 		return true;
