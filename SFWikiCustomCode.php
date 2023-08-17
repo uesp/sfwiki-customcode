@@ -47,7 +47,7 @@ class SFWikiCustomCode
 	
 	public static function SetupLongitudeAds( &$out )
 	{
-		$out->addInlineScript("var sfWikiTopAd = document.getElementById('sfwikiTopAd'); if (sfWikiTopAd) sfWikiTopAd.style = 'height:90px;'; ");
+		//$out->addInlineScript("var sfWikiTopAd = document.getElementById('sfwikiTopAd'); if (sfWikiTopAd) sfWikiTopAd.style = 'height:90px;'; ");
 		$out->addScriptFile('https://lngtd.com/starfield-wiki.js');
 	}
 	
