@@ -16,7 +16,8 @@
 		"OutputPageBeforeHTML" : "SFWikiCustomCode::onOutputPageBeforeHTML",
 		"ParserFirstCallInit" : "SFWikiCustomCode::onParserInit",
 		"BeforePageDisplay" : "SFWikiCustomCode::onBeforePageDisplay",
-		"UserMailerTransformMessage" : "SFWikiCustomCode::onUserMailerTransformMessage"
+		"UserMailerTransformMessage" : "SFWikiCustomCode::onUserMailerTransformMessage",
+		"ParserPreSaveTransformComplete" : "SFWikiCustomCode::onPreSaveTransformCheckUploadWizard"
 	},
 	"manifest_version": 1
 }

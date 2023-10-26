@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Daveh"
+		]
+	},
+	"mwe-upwiz-source-ownwork-assert-cc-by-sa-2.5": "I, $2, {{GENDER:$4|the copyright holder}} of {{PLURAL:$1|this work|these works}}, irrevocably grant anyone the right to use {{PLURAL:$1|this work|these works}} under the Creative Commons Attribution ShareAlike 2.5 license.",
+	"mwe-upwiz-source-ownwork-cc-by-sa-2.5-explain": "(Anyone may use, share or remix {{PLURAL:$1|this work|these works}}, as long as they credit me.)",
+	"mwe-upwiz-license-cc-by-sa-2.5": "Creative Commons Attribution ShareAlike 2.5",
+	"mwe-upwiz-license-cc-by-2.5": "Creative Commons Attribution 2.5",
+	"mwe-upwiz-license-cc-by-sa-nc-2.5": "Creative Commons Attribution ShareAlike NonCommercial 2.5",
+	"mwe-upwiz-license-sfwiki-pd": "Public Domain",
+	"mwe-upwiz-license-sfwiki-screenshot" : "Screenshot",
+	"mwe-upwiz-license-sfwiki-usedwithpermission": "Used With Permission",
+	"mwe-upwiz-license-sfwiki-gfdl": "GNU Free Documenation License 1.2 or later",
+	"mwe-upwiz-license-sfwiki-none": "No License",
+	"mwe-upwiz-license-sfwiki-dontknow": "I don't know the license",
+	"mwe-upwiz-license-publicdomain-head": "Public Domain",
+	"mwe-upwiz-license-nonfree-head": "Non-Free Licenses",
+	"mwe-upwiz-license-screenshots-head": "Starfield Screenshots only"
+}
