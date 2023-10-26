@@ -36,12 +36,23 @@ class SFWikiCustomCode
 	}
 	
 	
+	public static function SetupUespFavIcons(&$out) 
+	{
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-16.png',  'sizes' => '16x16'));
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-32.png',  'sizes' => '32x32'));
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-48.png',  'sizes' => '48x48'));
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-64.png',  'sizes' => '64x64'));
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-96.png',  'sizes' => '96x96'));
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-128.png', 'sizes' => '128x128'));
+		$out->addLink(array('rel' => 'icon', 'type' => 'image/png', 'href' => 'https://images.starfieldwiki.net/favicon-256.png', 'sizes' => '256x256'));
+	}
+	
+	
 	public static function onBeforePageDisplay( &$out )
 	{
-		//self::SetupFavIcons($out);
-		//self::SetMapSessionData();
 		self::SetupLongitudeAds($out);
 		self::SetupTwitchEmbed($out);
+		self::SetupUespFavIcons($out);
 	}
 	
 	
